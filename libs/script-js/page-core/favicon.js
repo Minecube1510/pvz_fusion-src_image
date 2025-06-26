@@ -23,7 +23,14 @@ function setFavic(pngPath, icoPath) {
 const setPNG = ('libs/asset/favicon/emoji-test.png');
 const setICO = ('libs/asset/favicon/emoji-test.ico');
 //
+function resolveRelativePath(path) {
+  const base = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/'));
+  return `${base}/${path}`.replace(/\/{2,}/g, '/');
+}
+//
 
 export function favicing() {
-  setFavic(setPNG, setICO);
+  setFavic(
+  resolveRelativePath(setPNG),
+  resolveRelativePath(setICO));
 }
