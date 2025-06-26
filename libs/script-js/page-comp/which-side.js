@@ -4,12 +4,12 @@ const pilihan = [
   {
     label: 'Light Side',
     warna: 'primary',
-    link: '/libs/asset/plant-side/plant-index.html'
+    link: '/libs/page-html/plant-side/plant-index.html'
   },
   {
     label: 'Dark Side',
     warna: 'dark',
-    link: '/libs/asset/zombie-side/zombie-index.html'
+    link: '/libs/page-html/zombie-side/zombie-index.html'
   }
 ];
 
@@ -31,14 +31,6 @@ pilihan.forEach((item, index) => {
   `;
 
   card.addEventListener('click', () => {
-    document.querySelectorAll('.pilih-card').forEach(c => {
-      c.classList.remove('bg-primary', 'bg-dark', 'text-white', 'active');
-    });
-
-    card.classList.add(`bg-${item.warna}`, 'text-white', 'active');
-    pilihanAktif = index;
-
-    // Redirect ke halaman tujuan
     window.location.href = item.link;
   });
 
