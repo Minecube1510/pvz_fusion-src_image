@@ -1,11 +1,10 @@
 /* title.js */
 
 document.addEventListener('DOMContentLoaded', () => {
-  const headTitleAttr = document.head.getAttribute('title');
+  const headTitleAttr = (document.head.getAttribute('title'));
   if (headTitleAttr) {
-    document.title = `Halaman - ${headTitleAttr}`;
+    document.title = (`PvZ Fusion - ${headTitleAttr}`);
   } else {
-    document.title = 'Halaman - Tanpa Judul';
+    document.title = ('PvZ Fusion - NoTitle');
   }
 });
-
