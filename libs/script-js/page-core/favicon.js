@@ -21,14 +21,13 @@ function setFavic(pngPath, icoPath) {
 
 //
 const setPNG = (`
-    ./libs/asset/favicon/emoji-test.png
+    libs/asset/favicon/emoji-test.png
     `);
 const setICO = (`
-    ./libs/asset/favicon/emoji-test.ico
+    libs/asset/favicon/emoji-test.ico
     `);
 //
 
 export function favicing() {
   setFavic(setPNG, setICO);
 }
-
