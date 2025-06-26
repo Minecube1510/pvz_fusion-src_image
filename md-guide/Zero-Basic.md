@@ -1,22 +1,9 @@
-<div style="text-align: center;"><table border="1">
-  <thead><tr><th>
-    Nama
-  </th><th>
-    Umur
-  </th><th>
-    Profesi
-  </th></tr></thead>
-  <tbody><tr><td>
-    Aditya
-  </td><td>
-    29
-  </td><td>
-    Web Developer
-  </td></tr><tr><td>
-    Sita
-  </td><td>
-    27
-  </td><td>
-    UI/UX Designer
-  </td></tr></tbody>
-  </table></div>
+# A
+
+<div align="center"><table style="margin-left: auto; margin-right: auto;">
+  <tr><td>
+    A
+  </td></tr><tr><th>
+    A
+  </th></tr>
+</table></div>
