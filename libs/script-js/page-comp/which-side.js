@@ -1,12 +1,20 @@
 /* which-side.js */
 
 const pilihan = [
-  { label: 'Light Side', warna: 'primary' },
-  { label: 'Dark Side', warna: 'dark' }
+  {
+    label: 'Light Side',
+    warna: 'primary',
+    link: '/libs/asset/plant-side/plant-index.html'
+  },
+  {
+    label: 'Dark Side',
+    warna: 'dark',
+    link: '/libs/asset/zombie-side/zombie-index.html'
+  }
 ];
 
 const kontainer = document.getElementById('pilihan-kartu');
-let pilihanAktif = null; // Simpan pilihan aktif (index)
+let pilihanAktif = null;
 
 pilihan.forEach((item, index) => {
   const col = document.createElement('div');
@@ -22,22 +30,16 @@ pilihan.forEach((item, index) => {
     </div>
   `;
 
-  // Event klik kartu
   card.addEventListener('click', () => {
-    const isSelected = pilihanAktif === index;
-
     document.querySelectorAll('.pilih-card').forEach(c => {
       c.classList.remove('bg-primary', 'bg-dark', 'text-white', 'active');
     });
 
-    if (isSelected) {
-      pilihanAktif = null; // batal
-      console.log('Batal memilih');
-    } else {
-      pilihanAktif = index;
-      card.classList.add(`bg-${item.warna}`, 'text-white', 'active');
-      console.log(`Kamu memilih: ${item.label}`);
-    }
+    card.classList.add(`bg-${item.warna}`, 'text-white', 'active');
+    pilihanAktif = index;
+
+    // Redirect ke halaman tujuan
+    window.location.href = item.link;
   });
 
   col.appendChild(card);
