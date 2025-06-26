@@ -20,12 +20,8 @@ function setFavic(pngPath, icoPath) {
 }
 
 //
-const setPNG = (`
-    libs/asset/favicon/emoji-test.png
-    `);
-const setICO = (`
-    libs/asset/favicon/emoji-test.ico
-    `);
+const setPNG = ('libs/asset/favicon/emoji-test.png');
+const setICO = ('libs/asset/favicon/emoji-test.ico');
 //
 
 export function favicing() {
