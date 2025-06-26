@@ -20,8 +20,8 @@ function setFavic(pngPath, icoPath) {
 }
 
 //
-const setPNG = ('/pvz_fusion-src_image/libs/asset/favicon/emoji-test.png');
-const setICO = ('/pvz_fusion-src_image/libs/asset/favicon/emoji-test.ico');
+const setPNG = ('libs/asset/favicon/emoji-test.png');
+const setICO = ('libs/asset/favicon/emoji-test.ico');
 //
 function resolveRelativePath(path) {
   const base = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/'));
