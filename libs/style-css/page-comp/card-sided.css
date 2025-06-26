@@ -1,0 +1,16 @@
+/* card-sided.css */
+
+.pilih-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pilih-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.pilih-card.active {
+  transform: scale(0.95);
+  border-width: 2px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}

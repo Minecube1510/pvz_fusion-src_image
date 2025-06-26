@@ -24,18 +24,18 @@ pilihan.forEach((item, index) => {
 
   // Event klik kartu
   card.addEventListener('click', () => {
-    const isSudahDipilih = pilihanAktif === index;
+    const isSelected = pilihanAktif === index;
 
     document.querySelectorAll('.pilih-card').forEach(c => {
-      c.classList.remove('bg-primary', 'bg-dark', 'text-white', 'animate__animated', 'animate__pulse');
+      c.classList.remove('bg-primary', 'bg-dark', 'text-white', 'active');
     });
 
-    if (isSudahDipilih) {
-      pilihanAktif = null; // batal pilih
-      console.log('Kamu membatalkan pilihan.');
+    if (isSelected) {
+      pilihanAktif = null; // batal
+      console.log('Batal memilih');
     } else {
-      pilihanAktif = index; // set baru
-      card.classList.add(`bg-${item.warna}`, 'text-white', 'animate__animated', 'animate__pulse');
+      pilihanAktif = index;
+      card.classList.add(`bg-${item.warna}`, 'text-white', 'active');
       console.log(`Kamu memilih: ${item.label}`);
     }
   });
