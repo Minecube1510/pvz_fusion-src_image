@@ -1,9 +1,10 @@
-# A
+# Judul
 
 <div align="center"><table style="margin-left: auto; margin-right: auto;">
-  <tr><td>
+  <thead><tr><th>
     A
-  </td></tr><tr><th>
+  </th></tr></thead>
+  <tbody><tr><th>
     A
-  </th></tr>
+  </th></tr></tbody>
 </table></div>
