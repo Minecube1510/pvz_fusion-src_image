@@ -1,6 +1,6 @@
 /* favicon.js */
 
-export function setFavic(pngPath, icoPath) {
+function setFavic(pngPath, icoPath) {
   // Bersihkan favicon yang sudah ada
   document.querySelectorAll('link[rel="icon"]').forEach(link => link.remove());
 
@@ -19,4 +19,16 @@ export function setFavic(pngPath, icoPath) {
   document.head.appendChild(icoFavicon);
 }
 
+//
+const setPNG = (`
+    ./libs/asset/favicon/emoji-test.png
+    `);
+const setICO = (`
+    ./libs/asset/favicon/emoji-test.ico
+    `);
+//
+
+export function favicing() {
+  setFavic(setPNG, setICO);
+}
 
