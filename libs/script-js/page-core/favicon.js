@@ -1,8 +1,6 @@
 /* favicon.js */
 
-export function setFavic(
-  pngPath = './libs/asset/favicon/emoji-test.png',
-  icoPath = './libs/asset/favicon/emoji-test.ico') {
+export function setFavic(pngPath, icoPath) {
   // Bersihkan favicon yang sudah ada
   document.querySelectorAll('link[rel="icon"]').forEach(link => link.remove());
 
