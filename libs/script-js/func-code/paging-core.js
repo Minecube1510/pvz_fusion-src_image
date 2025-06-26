@@ -12,6 +12,17 @@ import { copyrightFooter } from '../page-core/footer.js';
 
 
 /* Sistem */
+// Auto-refresh saat Back/Forward navigation
+window.addEventListener('pageshow', (event) => {
+    // event.persisted true kalau page diambil dari cache
+    // performace.navigation.type === 2 di banyak browser lama
+    const nav = performance.getEntriesByType('navigation')[0] || {};
+    const isBackForward = event.persisted || nav.type === 'back_forward';
+    if (isBackForward) {
+        window.location.reload();
+    }
+});
+//
 function excing() {
     bootstrap();   
     seTitling();
