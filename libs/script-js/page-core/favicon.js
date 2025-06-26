@@ -1,11 +1,10 @@
 /* favicon.js */
 
-document.addEventListener('DOMContentLoaded', () => {
-  const favicon = (document.createElement('link'));
-  favicon.rel = ('icon');
-  favicon.type = ('image/png');
-  favicon.href = ('./libs/asset/favicon/emoji-test.png');
-  /* Intinya coba aja pake yang ICO dan PNG */
+// title.js
+export function seTitling(prefix = 'PvZ Fusion') {
+  const titleText = (document.querySelector('title')?.textContent);
+  document.title = (`
+    ${prefix} - ${(titleText) || ('NoTitle')}
+    `);
+}
 
-  document.head.appendChild(favicon);
-});

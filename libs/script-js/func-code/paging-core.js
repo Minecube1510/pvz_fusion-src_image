@@ -1,9 +1,9 @@
 /* paging-core.js */
 
 /* Import */
-import { bootstrap } './bootstrap.js';
-import './title.js';
-import './favicon.js';
+import { bootstrap } from './bootstrap.js';
+import { seTitling } from './title.js';
+import {  } from './favicon.js';
 /* Import */
 
 /* Sistem */
