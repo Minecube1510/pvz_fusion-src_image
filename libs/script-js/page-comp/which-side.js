@@ -1,33 +1,45 @@
 /* which-side.js */
 
-    const pilihan = [
-      { label: 'Light Side', warna: 'primary' },
-      { label: 'Dark Side', warna: 'dark' }
-    ];
+const pilihan = [
+  { label: 'Light Side', warna: 'primary' },
+  { label: 'Dark Side', warna: 'dark' }
+];
 
-    const kontainer = (document.getElementById('pilihan-kartu'));
+const kontainer = document.getElementById('pilihan-kartu');
+let pilihanAktif = null; // Simpan pilihan aktif (index)
 
-    pilihan.forEach((item, index) => {
-      const col = (document.createElement('div'));
-      col.className = ('col-5 col-md-3');
+pilihan.forEach((item, index) => {
+  const col = document.createElement('div');
+  col.className = 'col-5 col-md-3';
 
-      col.innerHTML = (`
-        <div class="card text-center border border-${item.warna}"
-        style="cursor:pointer" data-index="${index}">
-          <div class="card-body text-${item.warna}">
-            <h5 class="card-title">${item.label}</h5>
-          </div>
-        </div>
-      `);
+  const card = document.createElement('div');
+  card.className = `card text-center border border-${item.warna} pilih-card`;
+  card.style.cursor = 'pointer';
+  card.dataset.index = index;
+  card.innerHTML = `
+    <div class="card-body text-${item.warna}">
+      <h5 class="card-title">${item.label}</h5>
+    </div>
+  `;
 
-      col.addEventListener('click', () => {
-        document.querySelectorAll('#pilihan-kartu .card').forEach(card => {
-          card.classList.remove('bg-' + item.warna, 'text-white');
-        });
+  // Event klik kartu
+  card.addEventListener('click', () => {
+    const isSudahDipilih = pilihanAktif === index;
 
-        col.querySelector('.card').classList.add('bg-' + item.warna, 'text-white');
-        //console.log(`Kamu memilih: ${item.label}`);
-      });
-
-      kontainer.appendChild(col);
+    document.querySelectorAll('.pilih-card').forEach(c => {
+      c.classList.remove('bg-primary', 'bg-dark', 'text-white', 'animate__animated', 'animate__pulse');
     });
+
+    if (isSudahDipilih) {
+      pilihanAktif = null; // batal pilih
+      console.log('Kamu membatalkan pilihan.');
+    } else {
+      pilihanAktif = index; // set baru
+      card.classList.add(`bg-${item.warna}`, 'text-white', 'animate__animated', 'animate__pulse');
+      console.log(`Kamu memilih: ${item.label}`);
+    }
+  });
+
+  col.appendChild(card);
+  kontainer.appendChild(col);
+});
