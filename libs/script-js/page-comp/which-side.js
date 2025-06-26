@@ -5,14 +5,14 @@ const pilihan = [
     label: 'Light Side',
     warna: 'primary',
     link: (`
-      /libs/page-html/plant-side/plant-index.html
+      libs/page-html/plant-side/plant-index.html
     `),
   },
   {
     label: 'Dark Side',
     warna: 'dark',
     link: (`
-      /libs/page-html/zombie-side/zombie-index.html
+      libs/page-html/zombie-side/zombie-index.html
     `),
   }
 ];
