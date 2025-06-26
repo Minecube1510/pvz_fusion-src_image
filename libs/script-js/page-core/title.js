@@ -1,10 +1,8 @@
 /* title.js */
 
-document.addEventListener('DOMContentLoaded', () => {
-  const headTitleAttr = (document.head.getAttribute('title'));
-  if (headTitleAttr) {
-    document.title = (`PvZ Fusion - ${headTitleAttr}`);
-  } else {
-    document.title = ('PvZ Fusion - NoTitle');
-  }
-});
+export function seTitling(prefix = 'PvZ Fusion') {
+  const titleText = (document.querySelector('title')?.textContent);
+  document.title = (`
+    ${prefix} - ${(titleText) || ('NoTitle')}
+    `);
+}

@@ -1,10 +1,24 @@
 /* favicon.js */
 
-// title.js
-export function seTitling(prefix = 'PvZ Fusion') {
-  const titleText = (document.querySelector('title')?.textContent);
-  document.title = (`
-    ${prefix} - ${(titleText) || ('NoTitle')}
-    `);
+export function setFavic(
+  pngPath = './libs/asset/favicon/emoji-test.png',
+  icoPath = './libs/asset/favicon/emoji-test.ico') {
+  // Bersihkan favicon yang sudah ada
+  document.querySelectorAll('link[rel="icon"]').forEach(link => link.remove());
+
+  // Tambah favicon PNG
+  const pngFavicon = document.createElement('link');
+  pngFavicon.rel = ('icon');
+  pngFavicon.type = ('image/png');
+  pngFavicon.href = (pngPath);
+  document.head.appendChild(pngFavicon);
+
+  // Tambah fallback ICO (optional)
+  const icoFavicon = (document.createElement('link'));
+  icoFavicon.rel = ('icon');
+  icoFavicon.type = ('image/x-icon');
+  icoFavicon.href = (icoPath);
+  document.head.appendChild(icoFavicon);
 }
+
 
