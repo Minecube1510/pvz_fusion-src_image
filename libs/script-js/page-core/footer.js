@@ -14,8 +14,7 @@ export function copyrightFooter(creator = 'Minecube1510') {
 
   footer.innerHTML = (`
     <div class="container">
-      &copy; 2025 - By ${creator}
-    </div>
+      &copy; 2025 - By ${creator}</div>
   `);
 
   footer.classList.add(
