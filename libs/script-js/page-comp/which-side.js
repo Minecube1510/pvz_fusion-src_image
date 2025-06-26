@@ -6,6 +6,7 @@ const pilihan = [
 ];
 
 const kontainer = document.getElementById('pilihan-kartu');
+let pilihanAktif = null; // Simpan pilihan aktif (index)
 
 pilihan.forEach((item, index) => {
   const col = document.createElement('div');
@@ -15,23 +16,30 @@ pilihan.forEach((item, index) => {
   card.className = `card text-center border border-${item.warna} pilih-card`;
   card.style.cursor = 'pointer';
   card.dataset.index = index;
+  card.innerHTML = `
+    <div class="card-body text-${item.warna}">
+      <h5 class="card-title">${item.label}</h5>
+    </div>
+  `;
 
-  const cardBody = document.createElement('div');
-  cardBody.className = `card-body text-${item.warna}`;
-  // Awalnya kosong
-  cardBody.innerHTML = '';
+  // Event klik kartu
+  card.addEventListener('click', () => {
+    const isSelected = pilihanAktif === index;
 
-  card.appendChild(cardBody);
+    document.querySelectorAll('.pilih-card').forEach(c => {
+      c.classList.remove('bg-primary', 'bg-dark', 'text-white', 'active');
+    });
+
+    if (isSelected) {
+      pilihanAktif = null; // batal
+      console.log('Batal memilih');
+    } else {
+      pilihanAktif = index;
+      card.classList.add(`bg-${item.warna}`, 'text-white', 'active');
+      console.log(`Kamu memilih: ${item.label}`);
+    }
+  });
+
   col.appendChild(card);
   kontainer.appendChild(col);
-
-  let isActive = false;
-
-  card.addEventListener('click', () => {
-    isActive = !isActive;
-    card.classList.toggle('active', isActive);
-
-    // Tulisannya dimunculin / disembunyikan
-    cardBody.innerHTML = isActive ? `<h5 class="card-title">${item.label}</h5>` : '';
-  });
 });
