@@ -23,14 +23,18 @@ function setFavic(pngPath, icoPath) {
 const setPNG = ('libs/asset/favicon/emoji-test.png');
 const setICO = ('libs/asset/favicon/emoji-test.ico');
 //
-function resolveRelativePath(path) {
+function resolveAutoPath(path) {
+  const favPather = ((`/pvz_fusion-src_image/${path}`).replace((/\/{2,}/g), ('/')));
+  //.
+  console.log(`In Pathing Favicon: ${favPather}`);
+  //.
   return ((`/pvz_fusion-src_image/${path}`).replace((/\/{2,}/g), ('/')));
 }
 //
 
 export function favicing() {
   setFavic(
-    resolveRelativePath(setPNG),
-    resolveRelativePath(setICO),
+    resolveAutoPath(setPNG),
+    resolveAutoPath(setICO),
   );
 }
