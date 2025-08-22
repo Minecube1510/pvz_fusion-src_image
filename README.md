@@ -18,28 +18,37 @@ Setiap data wajib dinamai berdasarkan bentuk UUID.
 V1 : (**| ????-????-????-???? |**)
 ---
 > Ini dipotong menjadi 4 bagian setiap 4 digit.
-- Bagian Pertama  : [(Data), (), (Side), (SideFront_1)]
+- Bagian Pertama  : [(DataType), (TypeName), (FactSide), (SideFront)]
 - Bagian Kedua    : [(), (), (), ()]
 - Bagian Ketiga   : [(), (), (), ()]
 - Bagian Keempat  : [ID Data Entity]
-> ?.
+```
+Contoh:
+- X
+```
 
 V2 : (**| ??-????-????-????-???? |**)
 ---
 > Ini dipotong menjadi 4 bagian setiap 4 digit, ditambah 1 bagian dengan 2 digit.
-- Bagian Pertama  : [(Data), ()]
-- Bagian Kedua    : [(Side), (SideFront_1), (), ()]
+- Bagian Pertama  : [(DataType), (TypeName)]
+- Bagian Kedua    : [(FactSide), (SideFront), (), ()]
 - Bagian Ketiga   : [(), (), (), ()]
 - Bagian Keempat  : [(), (), (), ()]
 - Bagian Kelima   : [ID Data Entity]
-> ?.
+```
+Contoh:
+- X
+```
 
 V3 : (**| ????-????-????-????-???? |**)
 ---
 > Ini dipotong menjadi 5 bagian setiap 4 digit.
-- Bagian Pertama  : [(Data), (), (), (Side)]
-- Bagian Kedua    : [(SideFront_1), (), (), ()]
+- Bagian Pertama  : [(DataType), (TypeName), (), ()]
+- Bagian Kedua    : [(FactSide), (SideFront), (), ()]
 - Bagian Ketiga   : [(), (), (), ()]
 - Bagian Keempat  : [(), (), (), ()]
 - Bagian Kelima   : [ID Data Entity]
-> ?.
+```
+Contoh:
+- X
+```
