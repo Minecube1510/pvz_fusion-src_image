@@ -18,28 +18,51 @@ Setiap data wajib dinamai berdasarkan bentuk UUID.
 V1 : (**| ????-????-????-???? |**)
 ---
 > Ini dipotong menjadi 4 bagian setiap 4 digit.
-- Bagian Pertama  : [(Data), (), (Side), (SideFront_1)]
+- Bagian Pertama  : [(FactSide_1), (SideFront_3)]
 - Bagian Kedua    : [(), (), (), ()]
 - Bagian Ketiga   : [(), (), (), ()]
-- Bagian Keempat  : [ID Data Entity]
-> ?.
+- Bagian Keempat  : [ID Data]
+```
+Contoh: [1Pla-????-????-0001]
+
+- (Pertama), (Plant/Tanaman)
+- (), (), (), ()
+- (), (), (), ()
+- (Data ke-0001)
+```
 
 V2 : (**| ??-????-????-????-???? |**)
 ---
 > Ini dipotong menjadi 4 bagian setiap 4 digit, ditambah 1 bagian dengan 2 digit.
-- Bagian Pertama  : [(Data), ()]
-- Bagian Kedua    : [(Side), (SideFront_1), (), ()]
+- Bagian Pertama  : [(DataType_1), (TypeName_1)]
+- Bagian Kedua    : [(FactSide_1), (SideFront_3)]
 - Bagian Ketiga   : [(), (), (), ()]
 - Bagian Keempat  : [(), (), (), ()]
-- Bagian Kelima   : [ID Data Entity]
-> ?.
+- Bagian Kelima   : [ID Data]
+```
+Contoh: [A1-EPla-????-????-0002]
+
+- (Ke-A), (Pertama)
+- (Entitas), (Plant/Tanaman)
+- (), (), (), ()
+- (), (), (), ()
+- (Data ke-0002)
+```
 
 V3 : (**| ????-????-????-????-???? |**)
 ---
 > Ini dipotong menjadi 5 bagian setiap 4 digit.
-- Bagian Pertama  : [(Data), (), (), (Side)]
-- Bagian Kedua    : [(SideFront_1), (), (), ()]
+- Bagian Pertama  : [(DataType_1), (TypeName_1), (FactSide_1), (SideFront_1)]
+- Bagian Kedua    : [(), (), (), ()]
 - Bagian Ketiga   : [(), (), (), ()]
 - Bagian Keempat  : [(), (), (), ()]
-- Bagian Kelima   : [ID Data Entity]
-> ?.
+- Bagian Kelima   : [ID Data]
+```
+Contoh: [Ae2z-????-????-????-0003]
+
+- (Ke-A), (Entitas), (Kedua), (Zombie/Musuh)
+- (), (), (), ()
+- (), (), (), ()
+- (), (), (), ()
+- (Data ke-0003)
+```
