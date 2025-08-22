@@ -1,7 +1,7 @@
 /* footer.js */
 
 /* Ngedata */
-const footer = (document.getElementById('hak-cipta'));
+const footer = ((document).getElementById('hak-cipta'));
 //
 const creator = ('Minecube1510');
 /* Ngedata */
@@ -9,8 +9,8 @@ const creator = ('Minecube1510');
 
 /* Expor */
 export function copyrightFooter(creator = 'Minecube1510') {
-  const footer = document.getElementById('hak-cipta');
-  if (!(footer)) return;
+  const footer = ((document).getElementById('hak-cipta'));
+  if (!(footer)) { return };
 
   footer.innerHTML = (`
     <div class="container">
