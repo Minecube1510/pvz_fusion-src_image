@@ -5,22 +5,25 @@ const pilihan = [
     label: 'Light Side',
     warna: 'primary',
     link: (`
-      libs/page-html/plant-side/plant-index.html
+      libs/plant-index.html
     `),
     /*
-    https://minecube1510.github.io/pvz_fusion-src_image/libs/page-html/
-    zombie-side/libs/asset/favicon/emoji-test.png */
+      https://minecube1510.github.io/pvz_fusion-src_image/libs/
+      zombie-side
+      /
+      libs/asset/favicon/emoji-test.png
+    */
   },
   {
     label: 'Dark Side',
     warna: 'dark',
     link: (`
-      libs/page-html/zombie-side/zombie-index.html
+      libs/zombie-index.html
     `),
   }
 ];
 
-const kontainer = document.getElementById('pilihan-kartu');
+const kontainer = document.getElementById('faction-sidered');
 let pilihanAktif = null;
 
 pilihan.forEach((item, index) => {
