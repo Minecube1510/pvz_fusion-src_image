@@ -25,8 +25,7 @@ const setICO = ('libs/asset/favicon/emoji-test.ico');
 //
 function resolveAutoPath(path) {
   const favPather = ((`/pvz_fusion-src_image/${path}`).replace((/\/{2,}/g), ('/')));
-  //.
-  console.log(`In Pathing Favicon: ${favPather}`);
+  //console.log(`In Pathing Favicon: ${favPather}`);
   //.
   return ((`/pvz_fusion-src_image/${path}`).replace((/\/{2,}/g), ('/')));
 }
