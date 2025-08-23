@@ -18,10 +18,10 @@ Setiap data wajib dinamai berdasarkan bentuk UUID.
 V1 : (**| ????-????-????-???? |**)
 ---
 > Ini dipotong menjadi 4 bagian setiap 4 digit.
-- Bagian Pertama  : [(FactSide_1), (SideFront_3)]
-- Bagian Kedua    : [(), (), (), ()]
-- Bagian Ketiga   : [(), (), (), ()]
-- Bagian Keempat  : [ID Data]
+- Bagian Pertama  : [(FactSide_1), (SideFront_3)] (XXXX)
+- Bagian Kedua    : [(), (), (), ()] (XXXX)
+- Bagian Ketiga   : [(), (), (), ()] (XXXX)
+- Bagian Keempat  : [ID Data] (XXXX)
 ```
 Contoh: [1Pla-????-????-0001]
 
@@ -34,11 +34,11 @@ Contoh: [1Pla-????-????-0001]
 V2 : (**| ??-????-????-????-???? |**)
 ---
 > Ini dipotong menjadi 4 bagian setiap 4 digit, ditambah 1 bagian dengan 2 digit.
-- Bagian Pertama  : [(DataType_1), (TypeName_1)]
-- Bagian Kedua    : [(FactSide_1), (SideFront_3)]
-- Bagian Ketiga   : [(), (), (), ()]
-- Bagian Keempat  : [(), (), (), ()]
-- Bagian Kelima   : [ID Data]
+- Bagian Pertama  : [(DataType_1), (TypeName_1)] (XX)
+- Bagian Kedua    : [(FactSide_1), (SideFront_3)] (XXXX)
+- Bagian Ketiga   : [(), (), (), ()] (XXXX)
+- Bagian Keempat  : [(), (), (), ()] (XXXX)
+- Bagian Kelima   : [ID Data] (XXXX)
 ```
 Contoh: [A1-EPla-????-????-0002]
 
@@ -52,11 +52,11 @@ Contoh: [A1-EPla-????-????-0002]
 V3 : (**| ????-????-????-????-???? |**)
 ---
 > Ini dipotong menjadi 5 bagian setiap 4 digit.
-- Bagian Pertama  : [(DataType_1), (TypeName_1), (FactSide_1), (SideFront_1)]
-- Bagian Kedua    : [(), (), (), ()]
-- Bagian Ketiga   : [(), (), (), ()]
-- Bagian Keempat  : [(), (), (), ()]
-- Bagian Kelima   : [ID Data]
+- Bagian Pertama  : [(DataType_1), (TypeName_1), (FactSide_1), (SideFront_1)] (XXXX)
+- Bagian Kedua    : [(), (), (), ()] (XXXX)
+- Bagian Ketiga   : [(), (), (), ()] (XXXX)
+- Bagian Keempat  : [(), (), (), ()] (XXXX)
+- Bagian Kelima   : [ID Data] (XXXX)
 ```
 Contoh: [Ae2z-????-????-????-0003]
 
