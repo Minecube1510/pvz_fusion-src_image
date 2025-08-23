@@ -53,4 +53,8 @@ Melonpult-Hypnoshroom: 1Pla-xxxx-xxxx-0252
 Keadaan:
 [BENTROK]-Pada 'Seashroom' (Artinya, Fogs dan Roofs)
 
+Perencanaan:
+1. Fokus dengan nge-INT pada First-nya.
+2. Baru nge-ID data keseluruhan
+
 .
