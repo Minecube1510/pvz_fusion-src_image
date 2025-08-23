@@ -73,7 +73,9 @@ Contoh: [Ae2z-a6eS-c2x2-WisN-0003]
 
 # Aturan berdasarkan Standarisasi
 Menanti...
-
+```
+Menanti...
+```
 
 ---
 
@@ -100,7 +102,7 @@ B-3 Darat [(LA),(La),(lA),(la)]
 
 IDatereff (Identitas Data)
 A-1 Zero [(Z),(z), (ZE),(Ze),(zE),(ze), (ZER),(zER),(Zer),(zer) (0), (0Z),(0z), (0ZR),(0Zr),(0zR),(0zr)]
-A-2a First [(ST),(St),(sT),(st), (XX = Campuran apa dan apa)]
+A-2a First [(ST),(St),(sT),(st), (XX = Campuran apa dan apa), (2)]
 A-2b Request [(RQ),(Rq),(rQ),(rq)]
 A-3 Middle [(ZE),(Ze),(zE),(ze), (MIX),(mIX),(Mix),(mix) (3H),(3h), (3UH),(3Uh),(3uH),(3uh)] (H-High)
 A-4 Final [(FN),(Fn),(fN),(fn), (FIN),(fIN),(Fin),(fin) (5F),(5f), (5FN),(5Fn),(5fN),(5fn)]
