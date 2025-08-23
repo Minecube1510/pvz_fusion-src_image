@@ -11,10 +11,26 @@ V3: Ae1p - XXXX - XXXX - XXXX - 0000
 
 ---
 " Plants Spacer "
-|
+
 Scaredy-Cherry: 1Pla-xxxx-xxxx-0055
+|
 Squash-Wallnut: 1Pla-xxxx-xxxx-0086
 Torchwood-Wallnut: 1Pla-xxxx-xxxx-0120
+|
+Seashroom-Wallnut: 1Pla-xxxx-xxxx-0134
+Seashroom-Fumeshroom: 1Pla-xxxx-xxxx-0135
+Seashroom-Fumeshroom: 1Pla-xxxx-xxxx-0136
+Seashroom-Scaredy: 1Pla-xxxx-xxxx-0137
+Cactus-Wallnut: 1Pla-xxxx-xxxx-0142
+Blover-Cherry: 1Pla-xxxx-xxxx-0148
+Blover-Wallnut: 1Pla-xxxx-xxxx-0149
+Blover-Scaredy: 1Pla-xxxx-xxxx-0151
+Blover-Iceshroom: 1Pla-xxxx-xxxx-0152
+Blover-Doomshroom: 1Pla-xxxx-xxxx-0153
+Starfruit-Wallnut: 1Pla-xxxx-xxxx-0158
+Starfruit-Doomshroom: 1Pla-xxxx-xxxx-0161
+Pumpkin-Torchwood: 1Pla-xxxx-xxxx-0174
+
 ---
 
 .
