@@ -12,29 +12,45 @@ V3: Ae1p - XXXX - XXXX - XXXX - 0000
 ---
 " Plants Spacer "
 
+{ Nights }
 Scaredy-Cherry: 1Pla-xxxx-xxxx-0055
+|
 Doomshroom-Sunflower: 1Pla-xxxx-xxxx-0073
-|
+
+{ Pools }
 Torchwood-Wallnut: 1Pla-xxxx-xxxx-0120
-|
+
+{ Fogs }
 Seashroom-Fumeshroom: 1Pla-xxxx-xxxx-0135
-Seashroom-Fumeshroom: 1Pla-xxxx-xxxx-0136
-Seashroom-Scaredy: 1Pla-xxxx-xxxx-0137
-Blover-Scaredy: 1Pla-xxxx-xxxx-0151
-Starfruit-Doomshroom: 1Pla-xxxx-xxxx-0161
-Pumpkin-Torchwood: 1Pla-xxxx-xxxx-0174
-Magnetshroom-Wallnut: 1Pla-xxxx-xxxx-0182
+Seashroom-Scaredy: 1Pla-xxxx-xxxx-0136
+Seashroom-Iceshroom: 1Pla-xxxx-xxxx-0137
+Seashroom-Doomshroom: 1Pla-xxxx-xxxx-0138
 |
+Blover-Scaredy: 1Pla-xxxx-xxxx-0151
+|
+Starfruit-Doomshroom: 1Pla-xxxx-xxxx-0161
+|
+Pumpkin-Torchwood: 1Pla-xxxx-xxxx-0174
+|
+Magnetshroom-Wallnut: 1Pla-xxxx-xxxx-0182
+
+{ Roofs }
 Cabbagepult-Puffshroom: 1Pla-xxxx-xxxx-0197
+|
 Flowerpot-Cherry: 1Pla-xxxx-xxxx-0200
 Flowerpot-Iceshroom: 1Pla-xxxx-xxxx-0201
+|
 Garlic-Wallnut: 1Pla-xxxx-xxxx-0220
+|
 MariGold_Silver-Wallnut: 1Pla-xxxx-xxxx-0232
 MariGolden-Wallnut: 1Pla-xxxx-xxxx-0233
 MariGold_Silver-Doomshroom: 1Pla-xxxx-xxxx-0234
 MariGolden-Doomshroom: 1Pla-xxxx-xxxx-0235
 Melonpult-Hypnoshroom: 1Pla-xxxx-xxxx-0252
-
+.
 ---
+
+Keadaan:
+[BENTROK]-Pada 'Seashroom' (Artinya, Fogs dan Roofs)
 
 .
