@@ -78,7 +78,7 @@ Penulisan saat ini:
 
 { Plant-Zero V1 : (1Pla-0Dc1-LaAm-0001) }
 - [(INT-Entity-Tipe-Pertama),(Plants/Tanaman)]
-- [(Zero),(Day), (Charas),(INT-World)]
+- [(Zero),(Day), (Charas),(INT-Tipe-World)]
 - [(Daratan), (Matahari)]
 - [(ID Data)]
 
