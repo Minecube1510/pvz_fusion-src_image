@@ -23,11 +23,11 @@ V1 : (**| ????-????-????-???? |**)
 - Bagian Ketiga   : [(Bebas, sesuaikan keadaan tempatan)] (XXXX)
 - Bagian Keempat  : [ID Data] (XXXX)
 ```
-Contoh: [1Pla-????-????-0001]
+Contoh: [1Pla-A1Ze-LaAm-0001]
 
 - (Pertama), (Plant/Tanaman)
-- (), (), (), ()
-- (), (), (), ()
+- (INT-Zero),(Day), (Zero)
+- (Daratan), (Siang)
 - (Data ke-0001)
 ```
 
@@ -40,12 +40,12 @@ V2 : (**| ??-????-????-????-???? |**)
 - Bagian Keempat  : [(Bebas, sesuaikan keadaan tempatan)] (XXXX)
 - Bagian Kelima   : [ID Data] (XXXX)
 ```
-Contoh: [A1-EPla-????-????-0002]
+Contoh: [A1-EPla-B2pM-dn51-0002]
 
 - (Ke-A), (Pertama)
 - (Entitas), (Plant/Tanaman)
-- (), (), (), ()
-- (), (), (), ()
+- (INT-First),(Malam)
+- (Day),(Night), (Tanaman-A),(Tanaman-B)
 - (Data ke-0002)
 ```
 
@@ -58,12 +58,12 @@ V3 : (**| ????-????-????-????-???? |**)
 - Bagian Keempat  : [(Bebas, sesuaikan keadaan tempatan)] (XXXX)
 - Bagian Kelima   : [ID Data] (XXXX)
 ```
-Contoh: [Ae2z-????-????-????-0003]
+Contoh: [Ae2z-a6eS-c2x2-WisN-0003]
 
-- (Ke-A), (Entitas), (Kedua), (Zombie/Musuh)
-- (), (), (), ()
-- (), (), (), ()
-- (), (), (), ()
+- (Ke-A),(Entitas), (Entitas-Tipe-Kedua),(Zombie/Musuh)
+- (INT-Improve),(INT-World), (Escalate = Meningkatkan)
+- (INT-Super Adventure),(Kategori-Kedua), (X/x ? = 'Danger?'), (Tingkat 'Danger?')
+- (Langit), (Snow)
 - (Data ke-0003)
 ```
 
@@ -88,6 +88,15 @@ Main (Integer-an Utama)
 Side (Ada dua "faksi")
 - Plant [(P),(p), (PL),(Pl),(pL),(pl), (PLA),(pLA),(Pla),(pla)]
 - Zombie [(Z),(z), (ZO),(Zo),(zO),(zo), (ZOM),(zOM),(Zom),(zom)]
+
+ISituate (Keadaan)
+A-1 Matahari [(AM),(Am),(aM),(am)]
+A-2 Bulan [(PM),(Pm),(pM),(pm)]
+A-3 Saljuan [(SN),(Sn),(sN),(sn)]
+|
+B-1 Langit [(WI),(Wi),(wI),(wi)]
+B-2 Lautan [(SE),(Se),(sE),(se)]
+B-3 Darat [(LA),(La),(lA),(la)]
 
 IDatereff (Identitas Data)
 A-1 Zero [(Z),(z), (ZE),(Ze),(zE),(ze), (ZER),(zER),(Zer),(zer) (0), (0Z),(0z), (0ZR),(0Zr),(0zR),(0zr)]
