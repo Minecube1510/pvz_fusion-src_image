@@ -72,9 +72,29 @@ Contoh: [Ae2z-a6eS-c2x2-WisN-0003]
 
 
 # Aturan berdasarkan Standarisasi
-Menanti...
+Penulisan saat ini
 ```
-Menanti...
+Penulisan saat ini:
+
+{ Plant-Zero V1 : (1Pla-0Dc1-LaAm-0001) }
+- [(INT-Entity-Tipe-Pertama),(Plants/Tanaman)]
+- [(Zero),(Day), (Charas),(INT-World)]
+- [(Daratan), (Matahari)]
+- [(ID Data)]
+
+{ V2 : ? }
+- [()]
+- [()]
+- [()]
+- [()]
+- [()]
+
+{ V3 : ? }
+- [()]
+- [()]
+- [()]
+- [()]
+- [()]
 ```
 
 ---
