@@ -92,13 +92,13 @@ Side (Ada dua "faksi")
 - Zombie [(Z),(z), (ZO),(Zo),(zO),(zo), (ZOM),(zOM),(Zom),(zom)]
 
 ISituate (Keadaan)
-A-1 Matahari [(AM),(Am),(aM),(am)]
-A-2 Bulan [(PM),(Pm),(pM),(pm)]
-A-3 Saljuan [(SN),(Sn),(sN),(sn)]
+A-1 Matahari [(AM),(Am),(aM),(am)] ()
+A-2 Bulan [(PM),(Pm),(pM),(pm)] ()
+A-3 Saljuan [(SN),(Sn),(sN),(sn)] ()
 |
-B-1 Langit [(WI),(Wi),(wI),(wi)]
-B-2 Lautan [(SE),(Se),(sE),(se)]
-B-3 Darat [(LA),(La),(lA),(la)]
+B-1 Langit [(T),(t), (WI),(Wi),(wI),(wi)] (T-Tempest)
+B-2 Lautan [(S),(s), (SE),(Se),(sE),(se)] (S-Seas)
+B-3 Darat [(F),(f), (LA),(La),(lA),(la)] (F-Flat)
 
 IDatereff (Identitas Data)
 A-1 Zero [(Z),(z), (ZE),(Ze),(zE),(ze), (ZER),(zER),(Zer),(zer) (0), (0Z),(0z), (0ZR),(0Zr),(0zR),(0zr)]
