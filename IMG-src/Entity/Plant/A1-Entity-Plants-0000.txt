@@ -30,6 +30,16 @@ Blover-Doomshroom: 1Pla-xxxx-xxxx-0153
 Starfruit-Wallnut: 1Pla-xxxx-xxxx-0158
 Starfruit-Doomshroom: 1Pla-xxxx-xxxx-0161
 Pumpkin-Torchwood: 1Pla-xxxx-xxxx-0174
+Magnetshroom-Wallnut: 1Pla-xxxx-xxxx-0182
+|
+Cabbagepult-Wallnut: 1Pla-xxxx-xxxx-0196
+Cabbagepult-Puffshroom: 1Pla-xxxx-xxxx-0197
+Flowerpot-Cherry: 1Pla-xxxx-xxxx-0200
+Flowerpot-Iceshroom: 1Pla-xxxx-xxxx-0201
+Kernelpult-Wallnut: 1Pla-xxxx-xxxx-0205
+Kernelpult-Puffshroom: ?
+Melonpult-Wallnut: ?
+Melonpult-Puffshroom: ?
 
 ---
 
