@@ -42,9 +42,7 @@ Garlic-Wallnut: 1Pla-xxxx-xxxx-0223
 |
 MariGold_Silver-Wallnut: 1Pla-xxxx-xxxx-0235
 MariGolden-Wallnut: 1Pla-xxxx-xxxx-0236
-MariGold_Silver-Doomshroom: 1Pla-xxxx-xxxx-0237
-MariGolden-Doomshroom: 1Pla-xxxx-xxxx-0238
-Melonpult-Hypnoshroom: 1Pla-xxxx-xxxx-0255
+Melonpult-Hypnoshroom: 1Pla-xxxx-xxxx-0253
 .
 ---
 
