@@ -19,8 +19,8 @@ V1 : (**| ????-????-????-???? |**)
 ---
 > Ini dipotong menjadi 4 bagian setiap 4 digit.
 - Bagian Pertama  : [(FactSide_1), (SideFront_3)] (XXXX)
-- Bagian Kedua    : [(), (), (), ()] (XXXX)
-- Bagian Ketiga   : [(), (), (), ()] (XXXX)
+- Bagian Kedua    : [(Bebas, sesuaikan keadaan tempatan)] (XXXX)
+- Bagian Ketiga   : [(Bebas, sesuaikan keadaan tempatan)] (XXXX)
 - Bagian Keempat  : [ID Data] (XXXX)
 ```
 Contoh: [1Pla-????-????-0001]
@@ -36,8 +36,8 @@ V2 : (**| ??-????-????-????-???? |**)
 > Ini dipotong menjadi 4 bagian setiap 4 digit, ditambah 1 bagian dengan 2 digit.
 - Bagian Pertama  : [(DataType_1), (TypeName_1)] (XX)
 - Bagian Kedua    : [(FactSide_1), (SideFront_3)] (XXXX)
-- Bagian Ketiga   : [(), (), (), ()] (XXXX)
-- Bagian Keempat  : [(), (), (), ()] (XXXX)
+- Bagian Ketiga   : [(Bebas, sesuaikan keadaan tempatan)] (XXXX)
+- Bagian Keempat  : [(Bebas, sesuaikan keadaan tempatan)] (XXXX)
 - Bagian Kelima   : [ID Data] (XXXX)
 ```
 Contoh: [A1-EPla-????-????-0002]
@@ -53,9 +53,9 @@ V3 : (**| ????-????-????-????-???? |**)
 ---
 > Ini dipotong menjadi 5 bagian setiap 4 digit.
 - Bagian Pertama  : [(DataType_1), (TypeName_1), (FactSide_1), (SideFront_1)] (XXXX)
-- Bagian Kedua    : [(), (), (), ()] (XXXX)
-- Bagian Ketiga   : [(), (), (), ()] (XXXX)
-- Bagian Keempat  : [(), (), (), ()] (XXXX)
+- Bagian Kedua    : [(Bebas, sesuaikan keadaan tempatan)] (XXXX)
+- Bagian Ketiga   : [(Bebas, sesuaikan keadaan tempatan)] (XXXX)
+- Bagian Keempat  : [(Bebas, sesuaikan keadaan tempatan)] (XXXX)
 - Bagian Kelima   : [ID Data] (XXXX)
 ```
 Contoh: [Ae2z-????-????-????-0003]
@@ -65,4 +65,40 @@ Contoh: [Ae2z-????-????-????-0003]
 - (), (), (), ()
 - (), (), (), ()
 - (Data ke-0003)
+```
+
+
+---
+
+
+# Aturan berdasarkan Standarisasi
+Menanti...
+
+
+---
+
+
+# Catatan Notan
+Berikut catatan:
+```
+Main (Integer-an Utama)
+- Ke-[(A), (B)]
+- Entity/Entitas [(E),(e), (EN),(En),(eN),(en), (ENT),(eNT),(Ent),(ent)]
+
+Side (Ada dua "faksi")
+- Plant [(P),(p), (PL),(Pl),(pL),(pl), (PLA),(pLA),(Pla),(pla)]
+- Zombie [(Z),(z), (ZO),(Zo),(zO),(zo), (ZOM),(zOM),(Zom),(zom)]
+
+IDatereff (Identitas Data)
+A-1 Zero [(Z),(z), (ZE),(Ze),(zE),(ze), (ZER),(zER),(Zer),(zer) (0), (0Z),(0z), (0ZR),(0Zr),(0zR),(0zr)]
+A-2a First [(ST),(St),(sT),(st), (XX = Campuran apa dan apa)]
+A-2b Request [(RQ),(Rq),(rQ),(rq)]
+A-3 Middle [(ZE),(Ze),(zE),(ze), (MIX),(mIX),(Mix),(mix) (3H),(3h), (3UH),(3Uh),(3uH),(3uh)] (H-High)
+A-4 Final [(FN),(Fn),(fN),(fn), (FIN),(fIN),(Fin),(fin) (5F),(5f), (5FN),(5Fn),(5fN),(5fn)]
+A-5 Mode [(MO),(Mo),(mO),(mo), (MOD),(mOD),(Mod),(mod) (6O),(6o), (6MO),(6Mo),(6mO)(6mo)] (O-Over)
+|
+B- Menanti...
+
+IDigit (ID perdataan)
+- WAJIB "MIN" 4.
 ```
