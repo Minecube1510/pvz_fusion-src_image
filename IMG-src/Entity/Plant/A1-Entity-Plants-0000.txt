@@ -21,9 +21,7 @@ Doomshroom-Sunflower: 1Pla-xxxx-xxxx-0073
 Torchwood-Wallnut: 1Pla-xxxx-xxxx-0120
 
 { Fogs }
-Seashroom-Fumeshroom: 1Pla-xxxx-xxxx-0135
 Seashroom-Scaredy: 1Pla-xxxx-xxxx-0136
-Seashroom-Iceshroom: 1Pla-xxxx-xxxx-0137
 Seashroom-Doomshroom: 1Pla-xxxx-xxxx-0138
 |
 Blover-Scaredy: 1Pla-xxxx-xxxx-0151
