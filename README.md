@@ -121,7 +121,9 @@ B-2 Lautan [(S),(s), (SE),(Se),(sE),(se)] (S-Seas)
 B-3 Darat [(F),(f), (LA),(La),(lA),(la)] (F-Flat)
 
 IDatereff (Identitas Data)
-A-1 Zero [(Z),(z), (ZE),(Ze),(zE),(ze), (ZER),(zER),(Zer),(zer) (0), (0Z),(0z), (0ZR),(0Zr),(0zR),(0zr)]
+A-1a Zero [(Z),(z), (ZE),(Ze),(zE),(ze), (ZER),(zER),(Zer),(zer) (0), (0Z),(0z), (0ZR),(0Zr),(0zR),(0zr)]
+A-1aa Characters/Charas [(C),(c)]
+A-1ab Objecs/Items [(O),(o)]
 A-2a First [(ST),(St),(sT),(st), (XX = Campuran apa dan apa), (2)]
 A-2b Request [(RQ),(Rq),(rQ),(rq)]
 A-3 Middle [(ZE),(Ze),(zE),(ze), (MIX),(mIX),(Mix),(mix) (3H),(3h), (3UH),(3Uh),(3uH),(3uh)] (H-High)
