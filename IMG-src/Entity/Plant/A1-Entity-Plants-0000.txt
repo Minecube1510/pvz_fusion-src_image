@@ -3,3 +3,8 @@ Plants
 V1: 1Pla - XXXX - XXXX - 0000
 V2: A1 - EPla - XXXX - XXXX - 0000
 V3: Ae1p - XXXX - XXXX - XXXX - 0000
+
+"Plants Spacer"
+Scaredy-Cherry: 1Pla-xxxx-xxxx-0055
+Squash-Wallnut: 1Pla-xxxx-xxxx-0086
+
