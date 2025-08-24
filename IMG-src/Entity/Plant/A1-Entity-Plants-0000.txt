@@ -21,32 +21,28 @@ Doomshroom-Sunflower: 1Pla-xxxx-xxxx-0073
 Torchwood-Wallnut: 1Pla-xxxx-xxxx-0120
 
 { Fogs }
-Seashroom-Fumeshroom: 1Pla-xxxx-xxxx-0135
 Seashroom-Scaredy: 1Pla-xxxx-xxxx-0136
-Seashroom-Iceshroom: 1Pla-xxxx-xxxx-0137
 Seashroom-Doomshroom: 1Pla-xxxx-xxxx-0138
 |
 Blover-Scaredy: 1Pla-xxxx-xxxx-0151
 |
-Starfruit-Doomshroom: 1Pla-xxxx-xxxx-0161
+Starfruit-Doomshroom: 1Pla-xxxx-xxxx-0162
 |
-Pumpkin-Torchwood: 1Pla-xxxx-xxxx-0174
+Pumpkin-Torchwood: 1Pla-xxxx-xxxx-0175
 |
-Magnetshroom-Wallnut: 1Pla-xxxx-xxxx-0182
+Magnetshroom-Wallnut: 1Pla-xxxx-xxxx-0183
 
 { Roofs }
-Cabbagepult-Puffshroom: 1Pla-xxxx-xxxx-0197
+Cabbagepult-Puffshroom: 1Pla-xxxx-xxxx-0199
 |
-Flowerpot-Cherry: 1Pla-xxxx-xxxx-0200
-Flowerpot-Iceshroom: 1Pla-xxxx-xxxx-0201
+Flowerpot-Cherry: 1Pla-xxxx-xxxx-0202
+Flowerpot-Iceshroom: 1Pla-xxxx-xxxx-0203
 |
-Garlic-Wallnut: 1Pla-xxxx-xxxx-0220
+Garlic-Wallnut: 1Pla-xxxx-xxxx-0223
 |
-MariGold_Silver-Wallnut: 1Pla-xxxx-xxxx-0232
-MariGolden-Wallnut: 1Pla-xxxx-xxxx-0233
-MariGold_Silver-Doomshroom: 1Pla-xxxx-xxxx-0234
-MariGolden-Doomshroom: 1Pla-xxxx-xxxx-0235
-Melonpult-Hypnoshroom: 1Pla-xxxx-xxxx-0252
+MariGold_Silver-Wallnut: 1Pla-xxxx-xxxx-0235
+MariGolden-Wallnut: 1Pla-xxxx-xxxx-0236
+Melonpult-Hypnoshroom: 1Pla-xxxx-xxxx-0253
 .
 ---
 
